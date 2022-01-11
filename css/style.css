@@ -3,7 +3,7 @@
 :root{
     --fuente-heading:'PT Sans', sans-serif;;
     --fuente-parrafos:'Open Sans', sans-serif;
-    --primario: #784d3c
+    --primario: #784d3c;
 }
 html{
     box-sizing: border-box;
