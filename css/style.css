@@ -234,6 +234,14 @@ aside h3{
 .curso:last-of-type{
     border-bottom: none;
 }
+.curso__informacion h4{
+    margin: 2rem auto 1rem;
+}
+@media screen and (min-width: 768px) {
+    .curso__informacion h4{
+        margin: 0;
+    }
+}
 .curso__label{
     font-family: var(--fuente-heading);
     font-weight: 700;
@@ -274,4 +282,12 @@ aside h3{
 }
 .campo__field--textarea{
     height: 200px;
+}
+@media screen and (max-width: 490px) {
+    .formulario{
+        padding: 2rem;
+    }
+    .campo__label{
+        flex: 0 0 5rem;
+    }
 }
