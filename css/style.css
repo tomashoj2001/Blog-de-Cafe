@@ -67,7 +67,7 @@ img{
 .header__texto{
     text-align: center;
     color: #fff;
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 @media screen and (min-width: 768px) {
     .barra{
@@ -87,6 +87,7 @@ img{
 }
 .logo__nombre{
     font-weight: 400;
+    margin-bottom: 6rem;
 }
 .logo__bold{
     font-weight: 700;
